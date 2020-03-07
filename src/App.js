@@ -13,7 +13,7 @@ const App = () => {
   };
   useEffect(() => {
     fetchNews();
-  });
+  }, [searchQuery]);
 
   const handleChange = e => {
     setSearchQuery(e.target.value);
