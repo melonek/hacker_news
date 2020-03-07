@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div>
       <h2>News</h2>
-      <form onSubmit={handleSumbit}>
+      <form onSubmit={handleSubmit}>
         <input type="text" value={searchQuery} onChange={handleChange} />
         <button>Search</button>
       </form>
